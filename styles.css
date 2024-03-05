@@ -1,3 +1,43 @@
 * {
-    -webkit-font-smoothing: anti
+    -webkit-font-smoothing: antialiased;
+    -moz-osz-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+body{
+    margin: 16px;
+    font-size: 100%;
+    background-color: gray;
+    font-family:  'Open Sans', sans-serif;
+    color: white;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(43,50,178)0%, rgb(20,136,204)100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.location-and-date{
+    width: 100%;
+    border: 3px solid blue;
+
+
+}
+.current-stats {
+    width: 100%;
+    border: 3px solid red;
+
+}
+
+.weather-by-hour {
+    display: none;
+    width: 100%;
+    border: 3px solid blue;
+
+}
+.next-5-days {
+    width: 100%;
+    border: 3px solid yellow;
 }
